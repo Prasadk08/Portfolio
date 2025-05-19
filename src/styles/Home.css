@@ -1,0 +1,75 @@
+.home-container {
+  background-image: url("../assets/nenad-novakovic-mvG5WDANqPw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.intro-section {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: absolute;
+  top: 40%;
+  flex-direction: column;
+  right: 80px;
+  width: 550px;
+  height: 200px;
+}
+
+.intro-section p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.animation-wrapper{
+  position: absolute;
+  left:17%;
+  top: 39%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.home-middle{
+  width: 100%;
+}
+
+
+.box{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 300px;
+  margin: 20px;
+   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  color: #333;
+  opacity: 1;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.leftbox{
+ transform: translateX(-350px) scale(0.5);
+}
+.rightbox{
+  transform: translateX(350px) scale(0.5);
+}
+
+.titlebox1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.box.show {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+

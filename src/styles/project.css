@@ -1,0 +1,58 @@
+.projectimages{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+}
+
+.project-item1,.project-item2{
+    padding: 30px 0;
+}
+
+.project-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    height: 250px;
+    width: 800px;;
+}
+.project-info-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: honeydew;
+    border-radius: 10px;
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.projectliveimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstproject-img{
+    height: 200px;
+    width: 400px;
+    margin: 20px;   
+}
+
+.project-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #ff4757;
+  transform: translateY(-2px);
+}
