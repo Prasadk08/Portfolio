@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "serve -s dist"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview"
+}
+,
   "dependencies": {
     "bootstrap": "^5.3.6",
     "lottie-react": "^2.4.1",
