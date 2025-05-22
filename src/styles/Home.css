@@ -101,7 +101,7 @@
   }
   .leftbox,
   .rightbox {
-    height: 400px;
+    height: 100%;
     width: 60%;
     padding: 10px 0;
   }
@@ -112,5 +112,8 @@
   .rightbox p {
     padding: 20px;
     font-size: 13px;
+  }
+  .titlebox1{
+    padding: 20px auto;
   }
 }
