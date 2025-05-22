@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect } from "react";
-import Navbar from "../components/Navbar";
 import "../styles/Home.css";
 import Lottie from "lottie-react";
 import animationData from "../assets/html-5.json";

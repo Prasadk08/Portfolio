@@ -1,6 +1,6 @@
 
 import projectImage1 from "../assets/restaurant_6643359.png";
-import "../styles/Project.css";
+import "../styles/project.css";
 import projectpic1a from "../assets/projectpic1a.png";
 import projectpic2a from "../assets/projectpic2a.png";
 import projectpic3a from "../assets/projectpic3a.png";

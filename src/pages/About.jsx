@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import prasadImage from "../assets/prasadimage.jpg";
-import "../styles/About.css";
+import "../styles/about.css";
 import bookImage from "../assets/book_3145765.png";
 import collegeimg from "../assets/learning_10822259.png";
 import universityimg from "../assets/university_8074800.png";

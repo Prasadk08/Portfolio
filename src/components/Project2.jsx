@@ -1,5 +1,5 @@
 import projectImage1 from "../assets/airplane_2200326.png";
-import "../styles/Project.css";
+import "../styles/project.css";
 import projectpic1a from "../assets/project1b.png";
 import projectpic2a from "../assets/project2b.png";
 
