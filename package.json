@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "serve -s dist"
+    "build": "bunx vite build",
+    "start": "bunx serve -s dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
