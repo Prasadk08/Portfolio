@@ -2,6 +2,7 @@ import "../styles/contact.css";
 import mycontactimg from "../assets/mycontactimg.jpg";
 import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import myresume from "../assets/prasadresume.pdf";
 
 
 const Contact = () => {
@@ -15,9 +16,8 @@ const Contact = () => {
           <div className="connt">
               <h2>Let's Connect</h2>
 
-              {/* Social Icons */}
               <div className="social-icons">
-                <a href="https://linkedin.com/in/prasadkshirsagar" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="icon" />
                 </a>
                 <a href="https://github.com/prasadkshirsagar" target="_blank" rel="noopener noreferrer">
@@ -36,8 +36,9 @@ const Contact = () => {
 
               {/* Resume Button */}
               <a
-                href="/Prasad_Kshirsagar_Resume.pdf" // Replace with your actual path
+                href={myresume}
                 className="resume-button"
+                 target="_blank"
                 download
               >
                 Download Resume

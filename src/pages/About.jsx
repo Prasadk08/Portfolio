@@ -14,7 +14,7 @@ const About = () => {
     opacity: isVisible ? 1 : 0,
     transition: "all 0.8s ease-in-out",
     display: "flex",
-    flexWrap: "wrap",
+    flexDirection: "column",
     justifyContent: "center",
   };
 
@@ -33,7 +33,7 @@ const About = () => {
           <h2 className="name-heading">Prasad Pramod Kshirsagar</h2>
         </div>
         <div className="myaboutinfo" style={aboutmiddlecontr}>
-          <h1 className="">Hey Hi! 😎✨</h1>
+          <div className="abttitlehi">Hey Hi! 😎✨</div>
           <p>
             I am a passionate full-stack developer with a strong foundation in
             Java, Spring Boot, and the MERN stack. I love building modern web

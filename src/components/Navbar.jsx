@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary" style={navbarbg}>
       <div className="container-fluid">
-        <a className="navbar-brand fs-4" href="#">
+        <a className="navbar-brand fs-4 m-0 p-0" href="#">
           InheriteMe
         </a>
         <button
