@@ -29,5 +29,11 @@ export default [
         { allowConstantExport: true },
       ],
     },
+    preview: {
+    port: process.env.PORT || 4173,
+    host: true,
+    allowedHosts: ['portfolio-y051.onrender.com'],
+  }
   },
+  
 ]
