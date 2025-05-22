@@ -7,7 +7,7 @@ import react from "../assets/codingLogos/React.png";
 import spring from "../assets/codingLogos/spring.png";
 import express from "../assets/codingLogos/Express.png";
 import java from "../assets/codingLogos/java.png";
-import "../styles/CodingLogos.css";
+import "../styles/codingLogos.css";
 
 const CodingLogos = () => {
   return (
