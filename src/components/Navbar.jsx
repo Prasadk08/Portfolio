@@ -4,14 +4,30 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navbarbg = {
-    backgroundColor: "#fbeaff",
+    backgroundColor: "#8eecf5",
+    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+    position: "fixed",
+    width: "100%",
+    top: 0,
+    zIndex: 1000,
+    fontFamily: "'Plus Jakarta Sans', sans-serif",
+    fontOpticalSizing: "auto",
+    fontWeight: 600,
+    fontStyle: "normal"
   };
+  const mynmfontt = {
+   fontFamily: "'Plus Jakarta Sans', sans-serif",
+  fontOpticalSizing: "auto",
+  fontWeight: 600,
+  fontStyle: "normal"
+  
+};
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" style={navbarbg}>
+    <nav className="navbar navbar-expand-lg" style={navbarbg}>
       <div className="container-fluid">
-        <a className="navbar-brand fs-4 m-0 p-0" href="#">
-          InheriteMe
+        <a className="navbar-brand fs-4 m-0 p-0 mynmfontt" style={mynmfontt} href="#">
+          INHERITEME
         </a>
         <button
           className="navbar-toggler"
@@ -25,7 +41,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-center"
           style={{ fontSize: "18px" }}
           id="navbarNav"
         >

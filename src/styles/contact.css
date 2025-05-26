@@ -19,11 +19,12 @@
 
 .content-cont {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 250px;
-  width: 320px;
+  width: 50%;
   font-size: larger;
   font-weight: 700;
 }
@@ -66,6 +67,26 @@
 .resume-button:hover {
   background-color: #495057;
 }
+
+.email-box {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.email-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.email-address {
+  font-size: 16px;
+  color: #0072b1; 
+  font-weight: 500;
+  word-break: break-all;
+}
+
 
 @media (max-width: 431px) {
   .content-cont {

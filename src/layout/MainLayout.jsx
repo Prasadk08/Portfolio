@@ -7,7 +7,7 @@ const MainLayout = () => {
   return (
     <>
       <Navbar />
-      <main  style={{ flex: 1 }}>
+      <main  style={{ flex: 1 , marginTop: "60px"}}>
         <Outlet />
       </main>
       <Footer />

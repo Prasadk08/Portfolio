@@ -30,7 +30,6 @@ const Home = () => {
 
     window.addEventListener("scroll", handleScroll);
 
-    // Run once in case some boxes are already in view
     handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
@@ -59,7 +58,7 @@ const Home = () => {
 
         <div className="intro-section">
         <h6 style={hello}>Hello, I’m</h6>
-          <h1 className="mb-3">Prasad Kshirsagar</h1>
+          <h1 className="mb-3 mynmfont">Prasad Kshirsagar</h1>
           <p>
             I’m a passionate full-stack developer with a strong foundation in
             Java, Spring Boot, and the MERN stack. <br />
