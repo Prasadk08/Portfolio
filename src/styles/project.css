@@ -88,4 +88,8 @@
     width: 90px;
     margin: 0px;
   }
+  .project-item1,
+.project-item2 {
+  padding: 10px 0;
+}
 }
