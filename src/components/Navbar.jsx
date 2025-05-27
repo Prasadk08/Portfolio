@@ -1,6 +1,6 @@
-import React from "react";
 
 import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   const navbarbg = {
@@ -21,6 +21,15 @@ const Navbar = () => {
   fontWeight: 600,
   fontStyle: "normal"
   
+};
+const handleNavLinkClick = () => {
+  const navbarCollapse = document.getElementById("navbarNav");
+  if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+    const bsCollapse = new window.bootstrap.Collapse(navbarCollapse, {
+      toggle: true,
+    });
+    bsCollapse.hide();
+  }
 };
 
   return (
@@ -47,23 +56,23 @@ const Navbar = () => {
         >
           <ul className="navbar-nav px-3">
             <li className="nav-item me-3">
-              <Link className="nav-link active" to="/">
+              <Link className="nav-link active" to="/" onClick={handleNavLinkClick}>
                 Home
               </Link>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link active" to="/about">
+              <Link className="nav-link active" to="/about" onClick={handleNavLinkClick}>
                 About
               </Link>
             </li>
             <li className="nav-item me-3">
-              <Link className="nav-link active" to="/projects">
+              <Link className="nav-link active" to="/projects" onClick={handleNavLinkClick}>
                 Projects
               </Link>
             </li>
-        
+
             <li className="nav-item me-3">
-              <Link className="nav-link active" to="/contact">
+              <Link className="nav-link active" to="/contact" onClick={handleNavLinkClick}>
                 Contact
               </Link>
             </li>

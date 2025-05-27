@@ -17,6 +17,11 @@
   height: 250px;
   width: 800px;
 }
+
+.project-container {
+  overflow-x: hidden;
+}
+
 .project-info-div {
   display: flex;
   flex-direction: column;
